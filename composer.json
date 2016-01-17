@@ -3,14 +3,6 @@
     "description": "Listen for product events to pass to Processwire",
     "type": "magento2-module",
     "version": "0.0.1",
-    "extra": {
-        "map": [
-            [
-                "*",
-                "TheBigSurf/WireProductsHook"
-            ]
-        ]
-    },
     "require": {
         "php"              : "~5.5.0|~5.6.0|~7.0.0",
         "magento/framework": "~100.0"
